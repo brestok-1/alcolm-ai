@@ -1,0 +1,79 @@
+:root {
+    --main-blue-color: #0e88df;
+    --main-blue-color-hover: #f51958;
+    --main-bg-color: #e8edf3;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.chat-header {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.chat-body {
+    background-image: url('../../static/images/bg.png');
+    background-size: cover;
+    padding-top: 1px;
+    border-top: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.chatbot-window {
+    border: 1px solid #bdbdbd;
+}
+
+/*::placeholder {*/
+/*    font-size: 30px;*/
+/*}*/
+
+.message {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.user_message {
+    background-color: #f3f2f2;
+    margin-left: auto;
+    border: 1px solid #d7d7d7;
+    /*font-size: 20px;*/
+}
+
+.bot_message {
+    margin-right: auto;
+    background-color: #d1e8ff;
+    border: 1px solid #71beff;
+}
+
+.bot_message p {
+    margin-bottom: 0;
+}
+
+.bot_message ol {
+    margin-bottom: 0;
+}
+
+.bot_message ul {
+    margin-bottom: 0;
+}
+
+.bot_message h3 {
+    margin-top: 0.5rem;
+    font-size: 20px;
+}
+
+#toggleButton {
+    cursor: pointer;
+    position: fixed;
+    background-color: #f7f9fc;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
